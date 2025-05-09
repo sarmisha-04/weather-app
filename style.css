@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;  
+  }
+  .container{
+      width: 100%;
+      height:100vh;
+      background-color: aqua;
+      display:flex;
+      justify-content:center;
+      align-items: center;
+  }
+  .weather{
+    color:#610ae4;
+  }
+  .temp{
+    font-size: 4.5rem;
+  }
+  .time_location{
+    font-size: 2rem;
+  }
+  .condition{
+    margin-left:0.3rem;
+    margin-left: 0.2rem;
+  }
+  nav{
+    height:50px;
+    margin:5rem;
+  }
+  .search_area{
+    padding:1rem 0;
+    outline:none;
+    border:none;
+    color:rgb(217, 23, 123);
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-bottom: 2px solid rgb(238, 37, 37);
+  }
+  nav form button{
+    background-color: chocolate;
+    margin-top:1rem;
+    font-size:1.1rem;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    padding:0.5rem;
+  }
